@@ -1,0 +1,17 @@
+{
+  "crud": {
+    "search": "查询",
+    "remain": "更多",
+    "collapse": "收起",
+    "expand": "展开",
+    "reset": "重置",
+    "remove": "删除",
+    "cancelRemove": "取消删除",
+    "removeOperationConfirmMessage": "确定执行删除操作 ?",
+    "cancel": "取消",
+    "conform": "确认"
+  },
+  "message": {
+    "inputKeyword": "请输入搜索关键字"
+  }
+}

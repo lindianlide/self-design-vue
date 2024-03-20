@@ -1,0 +1,68 @@
+/*组件scoped样式不生效*/
+.c-form-modal {
+  .c-form.ant-form-vertical {
+    padding: 0 50px;
+  }
+}
+
+.ant-divider-horizontal {
+  margin: 16px 0;
+}
+
+.ant-tabs-top > .ant-tabs-nav {
+  margin: 0 0 10px 0;
+}
+
+//主应用低版本有默认值
+.ant-input {
+  height: auto;
+}
+
+.viewer-container {
+  .viewer-footer {
+    scale: 1.3;
+  }
+  .viewer-toolbar > ul > li + li {
+    margin-left: 4px;
+  }
+}
+
+//内置表格无滚动条，超出边界
+.ant-descriptions {
+  .a-descriptions-table {
+    .ant-descriptions-item-container {
+      .ant-descriptions-item-content {
+        display: inline-block;
+        width: 100%;
+      }
+    }
+   
+  }
+}
+
+//乾坤父样式影响，统一调整
+.ant-modal {
+  .ant-modal-close-x {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ant-modal-header {
+    padding: 0;
+    border-bottom: none;
+    margin-bottom: 15px;
+  }
+
+  .ant-modal-body {
+    padding: 0;
+  }
+
+  .ant-modal-footer {
+    padding: 0;
+    border-top: none;
+  }
+}
+
+.ant-btn-default:not(:disabled):hover {
+  background: #fff;
+}

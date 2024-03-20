@@ -1,0 +1,88 @@
+/* 左表格 右表格 */
+.common-tablelr {
+  display: flex;
+  justify-content: space-between;
+  .c-table-wrap.common-tablel {
+    width: 49.5%;
+  }
+  .c-table-wrap.common-tabler {
+    width: 49.5%;
+  }
+  .ant-tabs.common-tabler {
+    width: 49.5%;
+
+    .ant-tabs-tab {
+      padding: 8px 0;
+    }
+  }
+
+  /* 下左表格30% 下右表格70% */
+  &.l-3 {
+    .c-table-wrap.common-tablel {
+      width: 29.5%;
+    }
+    .c-table-wrap.common-tabler {
+      width: 69.5%;
+    }
+    .ant-tabs.common-tabler {
+      width: 69.5%;
+    }
+  }
+
+  /* 下左表格40% 下右表格60% */
+  &.l-4 {
+    .c-table-wrap.common-tablel {
+      width: 39.5%;
+    }
+    .c-table-wrap.common-tabler {
+      width: 59.5%;
+    }
+    .ant-tabs.common-tabler {
+      width: 59.5%;
+    }
+  }
+
+  /* 下左表格60% 下右表格40% */
+  &.l-6 {
+    .c-table-wrap.common-tablel {
+      width: 59.5%;
+    }
+    .c-table-wrap.common-tabler {
+      width: 39.5%;
+    }
+    .ant-tabs.common-tabler {
+      width: 39.5%;
+    }
+  }
+}
+
+/* 详情页布局 */
+.common-detail {
+  padding: 10px;
+  background: #fafafa;
+  .detail-header {
+    position: relative;
+    padding: 0 10px 10px 10px;
+    .header-title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .header-operate {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      .ant-btn + .ant-btn {
+        margin-left: 8px;
+      }
+    }
+    .ant-descriptions {
+      margin-top: 10px;
+    }
+  }
+
+  .detail-content {
+    border: 1px solid #ececec;
+    padding: 10px;
+    background: #fff;
+  }
+}

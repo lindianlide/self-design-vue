@@ -1,0 +1,17 @@
+{
+  "crud": {
+    "search": "Search",
+    "remain": "Remain",
+    "reset": "Reset",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "remove": "Remove",
+    "cancelRemove": "Cancel Remove",
+    "removeOperationConfirmMessage": "Sure to remove ?",
+    "cancel": "cancel",
+    "conform": "conform"
+  },
+  "message": {
+    "inputKeyword": "Input search text"
+  }
+}
