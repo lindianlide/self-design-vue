@@ -51,11 +51,11 @@ http://127.0.0.1:5173/components/home#/ctable
 left fix
 ajax
 //toolbar icon
-v-view https://juejin.cn/post/7221075271202324538
+v-view 
 user: fieldNames 冲突，options 里为接口返回的字段，cuserinput 里为 user 接口字段
 
 sorter 排序 校验
-//行内编辑 校验 material/CheckCyc https://blog.csdn.net/m0_57263648/article/details/134457595 https://blog.csdn.net/snows_l/article/details/134286391
+//行内编辑 校验 
 
 //搜索单行样式兼容问题
 //visible 响应式
